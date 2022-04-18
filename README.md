@@ -14,8 +14,8 @@ The architecture of the project follows Clean Architecture and MVVM. Dependency 
 
 The structure of the project is as follows:
 
-- `common`: contains the domain, data, use cases and the common presentation layer (in this case, view models).
-- `android`: depends on `common`, implements the Android framework-dependent elements (in this case, the Main Activity) and Android UI
+- `common`: contains the domain, data, use cases and the common presentation layer (in this case, view models). Also includes the DI module to provide the View Models.
+- `android`: depends on `common`, implements the Android framework-dependent elements (in this case, the Main Activity) and Android UI.
 - `desktop`: depends on `common`, implements the Linux Desktop UI.
 - `web`: depends on `common`, implements the web UI using Compose web.
 
