@@ -1,5 +1,5 @@
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.collectAsStatekodein
 import org.example.kmpdemo.domain.Counter
 import org.example.kmpdemo.framework.di.injectedServices
 import org.example.kmpdemo.presentation.CounterViewModel
